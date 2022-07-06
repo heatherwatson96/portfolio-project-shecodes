@@ -3,26 +3,21 @@
   --secondary-font: "Lora", serif;
   --highlight: #6c63ff;
 }
-body {
-  background-color: #fef7f7;
-}
 h1 {
   font-family: var(--primary-font);
   font-size: 96px;
   text-align: center;
-  margin-bottom: 40px;
 }
 p {
   font-family: var(--secondary-font);
   text-align: center;
   font-size: 24px;
+  margin: 20px;
 }
 h2 {
   font-family: var(--secondary-font);
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 900;
-  margin-top: 180px;
-
   text-align: center;
 }
 .homebutton {
@@ -32,39 +27,74 @@ h2 {
   color: white;
   background: var(--highlight);
   padding: 18px 30px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 180px;
 }
 .title,
+.hero {
+  background: #fef7f7;
+}
+.hero {
+  padding-top: 180px;
+}
+
 .navicon {
   font-size: 20px;
-  background-color: #fef7f7;
   margin: 0 30px;
   padding: 16px 0;
 }
 @media (max-width: 576px) {
-  body {
-    margin: 20px;
-  }
   h1 {
-    font-size: 50px;
+    font-size: 58px;
+    line-height: 1.5;
+  }
+  .hero {
+    padding-top: 80px;
   }
   p {
     font-size: 18px;
     padding: 20px;
   }
   h2 {
-    font-size: 24px;
-    margin-top: 40px;
+    font-size: 35px;
   }
   .homebutton {
     padding: 12px 20px;
+    margin-bottom: 60px;
   }
   .name-title {
     display: none;
   }
-  
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+.project-description {
+  text-align: center;
 }
 .black-links {
   color: black;
+}
+.content {
+  background-color: none;
+}
+.projects-intro {
+  font-size: 18px;
+  color: #272142;
+}
+.project-text {
+  font-size: 16px;
+}
+.outline-button {
+  color: var(--highlight);
+  padding: 18px 25px;
+  font-size: 16px;
+  line-height: 2px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
 }
