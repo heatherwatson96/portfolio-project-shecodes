@@ -8,10 +8,11 @@ h1 {
   font-size: 96px;
   text-align: center;
 }
+
 p {
   font-family: var(--secondary-font);
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   margin: 20px;
 }
 h2 {
@@ -20,7 +21,7 @@ h2 {
   font-weight: 900;
   text-align: center;
 }
-.homebutton {
+.btn-branding {
   font-family: var(--secondary-font);
   font-size: 18px;
   border-radius: 4px;
@@ -43,35 +44,20 @@ h2 {
   margin: 0 30px;
   padding: 16px 0;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 58px;
-    line-height: 1.5;
-  }
-  .hero {
-    padding-top: 80px;
-  }
-  p {
-    font-size: 18px;
-    padding: 20px;
-  }
-  h2 {
-    font-size: 35px;
-  }
-  .homebutton {
-    padding: 12px 20px;
-    margin-bottom: 60px;
-  }
-  .name-title {
-    display: none;
-  }
-}
-@media (max-width: 900px) {
-  .project-description {
-    padding: 0;
+@media (max-width: 1000px) {
+  .about-section {
     text-align: center;
+    padding: 0;
+  }
+  .about-section .btn-branding {
+    margin: 10px;
+    text-align: left;
+  }
+  .self-image {
+    text-align: left;
   }
 }
+
 .project-description {
   text-align: center;
 }
@@ -97,4 +83,75 @@ h2 {
   font-family: var(--secondary-font);
   border: 1px solid #6c63ff;
   border-radius: 4px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  text-align: left;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  text-align: left;
+}
+.about-section p {
+  text-align: left;
+  line-height: 30px;
+  margin: 0;
+}
+.about-section-content {
+  margin: 30px;
+}
+.self-image {
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 58px;
+    line-height: 1.5;
+  }
+  .about-section h1 {
+    font-size: 55px;
+    line-height: 80px;
+    text-align: center;
+  }
+  .hero {
+    padding-top: 80px;
+  }
+
+  .about-section p {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .about-section h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .btn-branding {
+    padding: 12px 20px;
+    margin-bottom: 60px;
+  }
+  .name-title {
+    display: none;
+  }
+  .self-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .about-section {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .self-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }
 }
