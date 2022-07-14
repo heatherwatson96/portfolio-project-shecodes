@@ -21,6 +21,13 @@ h2 {
   font-weight: 900;
   text-align: center;
 }
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 900;
+  text-align: center;
+}
 .btn-branding {
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -44,17 +51,21 @@ h2 {
   margin: 0 30px;
   padding: 16px 0;
 }
-@media (max-width: 1000px) {
-  .about-section {
+@media (max-width: 900px) {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-section .btn-branding {
+  .content-container .btn-branding {
     margin: 10px;
     text-align: left;
   }
   .self-image {
     text-align: left;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
   }
 }
 
@@ -84,25 +95,25 @@ h2 {
   border: 1px solid #6c63ff;
   border-radius: 4px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
   text-align: left;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
   text-align: left;
 }
-.about-section p {
+.content-container p {
   text-align: left;
   line-height: 30px;
   margin: 0;
 }
-.about-section-content {
+.content-container-content {
   margin: 30px;
 }
 .self-image {
@@ -114,7 +125,7 @@ h2 {
     font-size: 58px;
     line-height: 1.5;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 55px;
     line-height: 80px;
     text-align: center;
@@ -123,7 +134,7 @@ h2 {
     padding-top: 80px;
   }
 
-  .about-section p {
+  .content-container p {
     font-size: 18px;
     padding: 20px;
     text-align: center;
@@ -131,7 +142,7 @@ h2 {
   h2 {
     font-size: 35px;
   }
-  .about-section h2 {
+  .content-container h2 {
     font-size: 18px;
     text-align: center;
   }
@@ -145,10 +156,6 @@ h2 {
   .self-image {
     max-width: 100%;
     height: auto;
-  }
-  .about-section {
-    padding: 30px 0;
-    text-align: center;
   }
   .self-image {
     max-width: 100%;
