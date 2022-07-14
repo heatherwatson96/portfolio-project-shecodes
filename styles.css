@@ -154,6 +154,9 @@ h3 {
   .content-container .btn-branding {
     margin: 10px;
   }
+  .content-container h1 {
+    text-align: center;
+  }
   .self-image {
     text-align: center;
   }
