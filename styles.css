@@ -51,23 +51,6 @@ h3 {
   margin: 0 30px;
   padding: 16px 0;
 }
-@media (max-width: 900px) {
-  .content-container {
-    text-align: center;
-    padding: 0;
-  }
-  .content-container .btn-branding {
-    margin: 10px;
-    text-align: left;
-  }
-  .self-image {
-    text-align: left;
-  }
-  .content {
-    text-align: center;
-    padding: 0;
-  }
-}
 
 .project-description {
   text-align: center;
@@ -117,7 +100,7 @@ h3 {
   margin: 30px;
 }
 .self-image {
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 @media (max-width: 576px) {
@@ -156,9 +139,27 @@ h3 {
   .self-image {
     max-width: 100%;
     height: auto;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content-container-content,
+  .content-container-content p,
+  .content-container-content h2,
+  .content-container-content h1 {
+    text-align: center;
+    padding: 0;
+  }
+  .content-container .btn-branding {
+    margin: 10px;
   }
   .self-image {
-    max-width: 100%;
-    margin-top: 10px;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
   }
 }
