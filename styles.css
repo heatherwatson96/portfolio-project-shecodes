@@ -91,6 +91,11 @@ h3 {
   font-family: var(--secondary-font);
   text-align: left;
 }
+.content-container h3 {
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  text-align: left;
+}
 .content-container p {
   text-align: left;
   line-height: 30px;
@@ -155,6 +160,9 @@ h3 {
     margin: 10px;
   }
   .content-container h1 {
+    text-align: center;
+  }
+  .content-container h3 {
     text-align: center;
   }
   .self-image {
