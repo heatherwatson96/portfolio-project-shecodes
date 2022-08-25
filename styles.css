@@ -9,6 +9,12 @@ h1 {
   font-size: 96px;
   text-align: center;
 }
+a {
+  font-family: var(--secondary-font);
+}
+.name-title {
+  font-size: 20px;
+}
 
 p {
   font-family: var(--secondary-font);
@@ -24,11 +30,12 @@ h2 {
 }
 h3 {
   font-family: var(--secondary-font);
-  font-size: 24px;
+  font-size: 48px;
   line-height: 36px;
   font-weight: 900;
   text-align: center;
 }
+
 .btn-branding {
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -45,8 +52,11 @@ h3 {
 .hero {
   background: var(--secondary-color);
 }
+.title-pages {
+  background: white;
+}
 .hero {
-  padding-top: 180px;
+  padding-top: 140px;
 }
 
 .navicon {
@@ -82,7 +92,7 @@ h3 {
   border-radius: 4px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -90,7 +100,7 @@ h3 {
   text-align: left;
 }
 .content-container h2 {
-  font-size: 18px;
+  font-size: 38px;
   font-family: var(--secondary-font);
   text-align: left;
 }
@@ -173,9 +183,7 @@ footer {
     padding: 12px 20px;
     margin-bottom: 60px;
   }
-  .name-title {
-    display: none;
-  }
+
   .self-image {
     max-width: 100%;
     height: auto;
